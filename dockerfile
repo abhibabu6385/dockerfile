@@ -22,4 +22,4 @@ RUN tar -zxvf /opt/apache-tomcat-9.0.80.tar.gz
 COPY addressbook.war /opt/apache-tomcat-9.0.80/webapps
 #configuring the port number
 EXPOSE 8080" >> dockerfile
-sudo docker run build -t app:v1 .
+sudo docker build -t app:v1 .
